@@ -37,11 +37,11 @@ img { max-width: 100%; }
 .back-to-top { bottom: 28px; display: none; position: fixed; right: 28px; z-index: 99; }
 
 .navbar { border-top: 3px solid var(--gold); min-height: 82px; }
-.navbar-brand { gap: .45rem; min-width: 220px; }
+.navbar-brand { gap: 0; min-width: 220px; }
 .brand-word, .footer-brand { color: var(--navy); font: 800 1.65rem/1 "Manrope", sans-serif; letter-spacing: .055em; }
-.brand-name { color: var(--navy); font: 800 .96rem/1.15 "Manrope", sans-serif; letter-spacing: .035em; white-space: nowrap; }
+.brand-name { color: var(--navy); font: 800 1.05rem/1.15 "Manrope", sans-serif; letter-spacing: .035em; white-space: nowrap; }
 .brand-caption { color: #73808c; font-size: .56rem; letter-spacing: .13em; margin-top: 7px; }
-.brand-logo { display: block; flex: 0 0 auto; height: 68px; object-fit: contain; width: 96px; }
+.brand-logo { display: block; flex: 0 0 auto; height: 68px; margin-right: -18px; object-fit: contain; width: 96px; }
 .navbar-light .navbar-nav .nav-link { color: var(--navy); font-size: .72rem; font-weight: 700; letter-spacing: .025em; padding: 1.25rem .55rem; text-transform: uppercase; }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active { color: var(--emerald); }
 .nav-actions { align-items: stretch; }
@@ -150,9 +150,9 @@ textarea.form-control { min-height: initial; }
 
 .footer { background: var(--navy); color: rgba(255,255,255,.76); }
 .footer-main { padding-bottom: 3.5rem; padding-top: 3.5rem; }
-.footer .footer-brand { align-items: center; display: flex; gap: .75rem; margin-bottom: 1rem; max-width: 100%; width: fit-content; }
-.footer .footer-brand img { display: block; flex: 0 0 auto; height: 92px; object-fit: contain; width: 132px; }
-.footer .footer-brand span { color: white; font: 800 1rem/1.2 "Manrope", sans-serif; letter-spacing: .035em; }
+.footer .footer-brand { align-items: center; display: flex; gap: 0; margin-bottom: 1rem; max-width: 100%; width: fit-content; }
+.footer .footer-brand img { display: block; flex: 0 0 auto; height: 92px; margin-right: -38px; object-fit: contain; width: 132px; }
+.footer .footer-brand span { color: white; font: 800 1.1rem/1.2 "Manrope", sans-serif; letter-spacing: .035em; }
 .footer .company-name { color: white; font: 700 .9rem/1.5 "Manrope", sans-serif; margin-bottom: .55rem; max-width: 400px; }
 .footer .tagline { color: #e0ca90; font-size: .73rem; font-weight: 700; letter-spacing: .08em; }
 .footer .footer-description { max-width: 360px; }
@@ -193,9 +193,9 @@ textarea.form-control { min-height: initial; }
     .about-cta .container { align-items: flex-start; }
     .navbar-brand { min-width: 0; }
     .brand-logo { height: 62px; width: 86px; }
-    .brand-name { font-size: .86rem; letter-spacing: .025em; }
-    .footer .footer-brand { gap: .5rem; }
-    .footer .footer-brand img { height: 76px; max-width: 45%; width: 108px; }
-    .footer .footer-brand span { font-size: .9rem; }
+    .brand-logo { margin-right: -16px; }
+    .brand-name { font-size: .95rem; letter-spacing: .025em; }
+    .footer .footer-brand img { height: 76px; margin-right: -20px; max-width: 45%; width: 108px; }
+    .footer .footer-brand span { font-size: 1rem; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }

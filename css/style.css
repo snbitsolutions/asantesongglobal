@@ -159,20 +159,15 @@ textarea.form-control { min-height: initial; }
 .footer .contact-numbers > div { align-items: baseline; display: block; }
 .footer .contact-numbers .contact-address { margin-bottom: 1rem; }
 .footer .contact-numbers .contact-digital-address { margin-bottom: 1rem; }
-.footer .contact-numbers .contact-email { margin-top: 1rem; }
-.footer .contact-numbers .contact-whatsapp { margin-top: .55rem; }
+.footer .contact-numbers .contact-email { margin-top: .8rem; }
 .footer .contact-numbers strong { color: white; display: block; font-size: .82rem; letter-spacing: .02em; margin-bottom: .2rem; }
 .footer .contact-numbers .contact-phone strong { color: #e0ca90; margin-bottom: .25rem; }
 .footer .contact-numbers a:not(:hover) { margin: 0; }
 .footer a:not(.footer-brand) { color: rgba(255,255,255,.76); display: block; margin-bottom: .65rem; text-decoration: none; transition: color .2s ease; }
 .footer a:hover { color: white; }
+.footer a:focus-visible { border-radius: 2px; color: white; outline: 2px solid var(--gold); outline-offset: 3px; }
 .footer-nav a { width: fit-content; }
 .footer-contact { max-width: 100%; }
-.social-block { margin-top: 1.2rem; }
-.social-caption { color: #e0ca90; font-size: .65rem; font-weight: 700; letter-spacing: .1em; margin-bottom: .6rem; }
-.social-links { display: flex; flex-wrap: wrap; gap: .5rem; }
-.social-icon { align-items: center; border: 1px solid rgba(200,173,112,.65); color: #e0ca90; cursor: default; display: inline-flex; height: 36px; justify-content: center; opacity: .82; width: 36px; }
-.social-icon i { font-size: .9rem; }
 .copyright { border-top: 1px solid rgba(255,255,255,.15); font-size: .78rem; padding: 1rem 0; }
 
 @media (max-width: 767.98px) {

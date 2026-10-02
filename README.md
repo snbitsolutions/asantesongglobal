@@ -14,6 +14,12 @@ python3 -m http.server 8000
 
 Then open <http://localhost:8000> in a browser.
 
+## Publish with GitHub Pages
+
+GitHub Pages is configured to publish the repository root from the `main` branch at <https://snbitsolutions.github.io/asglobelimited/>. Pushing changes to `main` publishes them automatically.
+
+The contact, quote, and supplier forms still need a form-processing endpoint before launch. GitHub Pages does not process form submissions.
+
 ## Pages
 
 - Home: `index.html`

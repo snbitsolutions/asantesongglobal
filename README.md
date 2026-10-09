@@ -18,7 +18,11 @@ Then open <http://localhost:8000> in a browser.
 
 GitHub Pages is configured to publish the repository root from the `main` branch at <https://asantesongglobal.com/>. Pushing changes to `main` publishes them automatically.
 
-The contact, quote, and supplier forms still need a form-processing endpoint before launch. GitHub Pages does not process form submissions.
+The general contact, quote, and supplier forms all use the same Formspree endpoint and work with GitHub Pages. The quote and supplier forms do not include file uploads because the Formspree free plan does not include upload storage.
+
+## Form setup
+
+All three forms post to the Formspree endpoint configured in their respective HTML pages. To change the destination mailbox or review submissions, manage the form in the Formspree dashboard associated with that endpoint. Formspree requires the recipient email to be verified.
 
 ## Pages
 
@@ -31,4 +35,4 @@ The contact, quote, and supplier forms still need a form-processing endpoint bef
 - Supplier enquiries: `supplier.html`
 - Contact: `contact.html`
 
-Buyer and supplier forms are presentation-ready and require a backend endpoint to receive submissions.
+Buyer and supplier form submissions are handled by Formspree.

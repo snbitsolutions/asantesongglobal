@@ -129,6 +129,20 @@ textarea.form-control { min-height: initial; }
 .about-value-card .value-index { color: #947a42; display: block; font-size: .66rem; font-weight: 700; letter-spacing: .12em; margin-bottom: .5rem; }
 .about-value-card h3 { font-size: 1.03rem; min-height: 2.5rem; }
 .about-value-card p { font-size: .91rem; margin-bottom: 0; }
+.executive-section { background: linear-gradient(180deg, #ffffff 0%, #f8fbfb 100%); }
+.executive-card { background: #fff; border: 1px solid #e3e9ee; box-shadow: 0 10px 26px rgba(16,43,70,.05); height: 100%; padding: 1.5rem; }
+.executive-photo { border: 3px solid rgba(16,43,70,.08); border-radius: 50%; display: block; height: 130px; margin: 0 auto 1.25rem; object-fit: cover; width: 130px; }
+.executive-avatar { align-items: center; background: linear-gradient(135deg, var(--navy), var(--emerald)); border-radius: 50%; color: white; display: inline-flex; font: 700 1.1rem/1 "Manrope", sans-serif; height: 68px; justify-content: center; margin-bottom: 1.2rem; width: 68px; }
+.executive-body .eyebrow { margin-bottom: .5rem; }
+.executive-body h3 { font-size: 1.35rem; margin-bottom: .8rem; }
+.executive-body p { color: #4d5865; margin-bottom: .9rem; }
+.executive-body p:last-child { margin-bottom: 0; }
+@media (max-width: 767.98px) {
+    .executive-card { padding: 1.15rem; }
+    .executive-photo { height: 108px; width: 108px; }
+    .executive-body h3 { font-size: 1.2rem; }
+    .executive-body p { font-size: .95rem; }
+}
 .work-area { border-top: 1px solid #d8dfe5; height: 100%; padding: 1.2rem 0; }
 .work-area > span, .partner-point > span { color: var(--gold); font: 800 1.2rem "Manrope", sans-serif; }
 .work-area h3 { font-size: 1rem; margin: .9rem 0 .6rem; }

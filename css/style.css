@@ -132,6 +132,7 @@ textarea.form-control { min-height: initial; }
 .executive-section { background: linear-gradient(180deg, #ffffff 0%, #f8fbfb 100%); }
 .executive-card { background: #fff; border: 1px solid #e3e9ee; box-shadow: 0 10px 26px rgba(16,43,70,.05); height: 100%; padding: 1.5rem; }
 .executive-photo { border: 3px solid rgba(16,43,70,.08); border-radius: 50%; display: block; height: 130px; margin: 0 auto 1.25rem; object-fit: cover; width: 130px; }
+.executive-photo-placeholder { align-items: center; background: linear-gradient(135deg, var(--navy), var(--emerald)); border-color: rgba(15,47,73,.15); color: rgba(255,255,255,.9); display: flex; font: 700 .72rem/1 "Manrope", sans-serif; justify-content: center; letter-spacing: .12em; text-transform: uppercase; }
 .executive-avatar { align-items: center; background: linear-gradient(135deg, var(--navy), var(--emerald)); border-radius: 50%; color: white; display: inline-flex; font: 700 1.1rem/1 "Manrope", sans-serif; height: 68px; justify-content: center; margin-bottom: 1.2rem; width: 68px; }
 .executive-body .eyebrow { margin-bottom: .5rem; }
 .executive-body h3 { font-size: 1.35rem; margin-bottom: .8rem; }

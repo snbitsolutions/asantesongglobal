@@ -29,6 +29,12 @@ All three forms post to the Formspree endpoint configured in their respective HT
 - Home: `index.html`
 - About ASANTESONGGLOBAL: `about.html`
 - Services: `service.html`
+- Services overview: `services.html`
+- Procurement: `procurement.html`
+- Sourcing: `sourcing.html`
+- Logistics: `logistics.html`
+- Privacy policy: `privacy.html`
+- Terms of use: `terms.html`
 - Industries: `industries.html`
 - Products: `products.html`
 - Request a quote: `quote.html`
